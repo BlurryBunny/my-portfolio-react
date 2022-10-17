@@ -40,10 +40,6 @@ export const Skills = () => {
             title: "Flutter",
             imgUrl: tech7,
         },
-        {
-            title: "Bootstrap",
-            imgUrl: tech1,
-        },
 
         {
             title: "SQL",
@@ -113,11 +109,15 @@ export const Skills = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h2>
-                                Technologies
-                            </h2>
 
-                            <p>Et nulla id irure fugiat duis nostrud anim sit ipsum est commodo culpa.</p>
+                            <div className="container" id="skill-bx-text">
+                                <h2>
+                                    Technologies
+                                </h2>
+
+                                <p>Since I started my studies in systems engineering, I have tried different technologies, but at the moment some of them are the ones I have worked with and I have knowledge of.</p>
+                            </div>
+
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
 
                                 {

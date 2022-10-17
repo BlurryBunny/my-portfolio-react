@@ -334,6 +334,12 @@ nav.navbar {
     margin-top: -60px;
 
   }
+
+  #skill-bx-text{
+    width: 70%;
+    height: auto;
+  }
+
   .skill h2 {
       font-size: 45px;
       font-weight: 700;

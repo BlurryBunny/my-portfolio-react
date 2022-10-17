@@ -49,8 +49,8 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Hello World ...</span>
                         <h1>{"I'm Ulises Uriel "}<span className="wrap">{text}</span></h1>
-                        <p>Duis nisi exercitation aliqua nisi ut do labore aliqua non quis incididunt ut quis.</p>
-                        <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                        <p>I'm glad you got this far, I hope to meet you and work together on something.</p>
+                        <a id="link-card-project" href="https://www.linkedin.com/in/ulises-dominguez" target="_blank"><button onClick={() => console.log('Hi, you are connect')}>Let’s Connect <ArrowRightCircle size={25} /></button></a>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header img"></img>
