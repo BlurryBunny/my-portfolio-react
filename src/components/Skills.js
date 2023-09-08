@@ -11,16 +11,20 @@ import tech6 from '../assets/img/tech-github.svg';
 import tech7 from '../assets/img/tech-flutter.svg';
 import tech8 from '../assets/img/tech-figma.svg';
 import tech9 from '../assets/img/tech-bootstrap.svg';
-
-
-import colorSharp from '../assets/img/color-sharp.png';
-
+import tech10 from '../assets/img/tech-quasar.svg';
+import tech11 from '../assets/img/tech-magento.svg';
+import tech12 from '../assets/img/tech-python.svg';
 
 
 
 export const Skills = () => {
 
     const technologies = [
+        {
+            title: "Flutter",
+            imgUrl: tech7,
+        },
+
         {
             title: "Vue Js",
             imgUrl: tech1,
@@ -37,8 +41,18 @@ export const Skills = () => {
         },
 
         {
-            title: "Flutter",
-            imgUrl: tech7,
+            title: "Quasar",
+            imgUrl: tech10,
+        },
+
+        {
+            title: "Magento",
+            imgUrl: tech11,
+        },
+
+        {
+            title: "Python",
+            imgUrl: tech12,
         },
 
         {

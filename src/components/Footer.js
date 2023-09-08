@@ -24,7 +24,7 @@ export const Footer = () => {
                             </div>
                         </div>
                         <div className="footer-CR-box">
-                            <p>CopyRight 2022. All right Reserved</p>
+                            <p>CopyRight 2023. All right Reserved</p>
                         </div>
                     </Col>
                 </Row>
